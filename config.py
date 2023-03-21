@@ -17,7 +17,7 @@ class TOKENS:
     BOT_TOKEN_10 = os.getenv("BOT_TOKEN_10", "")
 
 class DATABASE:
-    MONGO_DB_URL = os.getenv("MONGO_DB_URL", "mongodb+srv://NicolasCageMafia:<password>@spamzy.qe4qabs.mongodb.net/?retryWrites=true&w=majority")
+    MONGO_DB_URL = os.getenv("MONGO_DB_URL", "mongodb+srv://NicolasCageMafia:I6MnXBGIzm7XbucO@spamzy.qe4qabs.mongodb.net/?retryWrites=true&w=majority")
 
 class DEV:
     OWNER_ID = int(os.getenv("OWNER_ID", "1103067009"))
